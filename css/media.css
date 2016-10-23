@@ -1,0 +1,102 @@
+
+/* MediaQueries bootstrap*/
+
+/* col-xs */
+@media (max-width: 767px) {
+    #btn-mobile-menu{
+        color: #fff;
+    	margin: 10px 0px;
+    	margin-left: 3%;
+    	outline: none;
+    	background-color: transparent;
+        border: none;
+    }
+	#mobile-menu-list{
+		position: fixed;
+		width: 70%;
+		height: 100%;
+		background-color: rgba(61, 3, 3,1);
+		box-shadow: 0px 2px 7px #3b3b3b;
+		z-index: 100;
+        color: #fff;
+	}
+	#mobile-menu-list > ul > li > a{
+		text-decoration: none;
+		color: #fff;
+		width: 100%;
+		display: block;
+		padding: 7px 0px;
+		border-top: 1px solid rgba(255, 255, 255,.1);
+	}
+	#mobile-menu-list > ul > li > a:focus{
+		outline: none;
+	}
+	#mobile-menu-list > ul > li > a:hover{
+		background-color: rgba(173, 0, 0,.7);
+	}
+	#button-close-mobile-menu{
+		position:absolute; 
+		top:3px; 
+		right:3px; 
+		outline:none; 
+		background-color: transparent; 
+		border: none;
+        color: #fff;
+	}
+    #jumbotron-index{
+        padding: 80px 25px;
+    }
+    .elements-nav-xs{
+        color: #fff;
+        margin: 0px;
+        padding: 0px 7px;
+        position: absolute;
+        top:15px;
+        right: 7px;
+        outline: none;
+        text-decoration: none;
+    }
+    #button-login-xs{
+        margin-right: 7%;
+    }
+    .elements-nav-xs:hover{
+        color: #fff;
+        text-decoration: none;
+    }
+    .elements-nav-xs:focus{
+        color: #fff;
+        text-decoration: none;
+        outline: none;
+    }
+    #button-shopping-cart-xs{
+        margin-right: 47%;
+    }
+    #form-registration{
+        min-height: 500px;
+        padding-top: 80px;
+    }
+}
+
+/* col-sm */
+@media (min-width: 768px) and (max-width: 991px) {
+    #jumbotron-index{
+        padding: 90px 25px;
+    }
+    .text-navbar{
+        font-size: 14px;
+        margin-top: 17px;
+    }
+}
+
+/* col-md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* col-lg */
+@media (min-width: 1200px) {
+    .contenedor-tabla{
+        width: 90%;
+    }
+    
+}
